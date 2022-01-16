@@ -8,6 +8,7 @@
                 background-image: linear-gradient(to right,WHITE);
                 font-family: 'Times New Roman', Times, serif;
             }
+                /* header or upper part of the page */
             .header{
                 position: absolute;
                 top:0%;
@@ -17,6 +18,7 @@
                 background-color:#4A6572 ;
                 border-bottom: 3px solid black;
             }
+                /* the backward arrow which will redirect you to the page before */
             .header .fas{
                 position: relative;
                 left:5%;
@@ -28,6 +30,7 @@
                 left:3%;
                 bottom:30%;
             }
+                /* title of the page */
             .exc{
                 font-family: 'Times New Roman', Times, serif;
                 font-size: 30px;
@@ -39,12 +42,14 @@
                 font-weight: bold;
                 color:#f9aa33;
             }
+                /* content or middle part of the page */
             .middle{
                 position:absolute;
                 top:11%;
                 height:150%;
                 width:100%;
             }
+ /* types of excercises, its pictures and expxlanation styling */
             .r1{
                 height:20%;
                 border-bottom: 3px solid black;
@@ -192,6 +197,8 @@
                 right:5%;
                 top:10%;
             }
+    /* ------------------------------*/
+    /* footer or lower part of the page */
             .footer{
                 position:fixed;
                 bottom:0%;
@@ -208,6 +215,7 @@
                 right:5%;
                 font-family:'Courier New', Courier, monospace;
             }
+                /* profile icon logo which will redirect you to the profile user page */
             .footer .fas{
                 position: absolute;
                 bottom:25%;
@@ -217,25 +225,27 @@
         }
 
         </style>
-        <title>Food Page</title>
+        <title>Excercise  Page</title><!--- the title of the website --->
         <script src="https://kit.fontawesome.com/7b0b641d05.js" crossorigin="anonymous"></script>
         <meta charset='8utf'>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         <div class = "header">
-            <div class ='exc'><c>EXERCISE</c></div>
+            <div class ='exc'><c>EXERCISE</c></div><!--- the title of the page --->
+            <!--- the backward arrow --->
             <div class ='back'><a href="https://willamjonathan.github.io/FP_6a/"style="color:black;text-decoration:none;">
                     <i class="fas fa-caret-left fa-2x"></i> </a>
             </div>    
         </div>
+        <!--- content or middle part of the page --->
         <div class='middle'>
             <div class='r1'>
-                <div class='t1'>
+                <div class='t1'> <!--- the left part of the r1 (text )--->
                     <b><a style='color:#f9aa33;font-size: 30px; text-align: center;position: relative;top:15%;'>PUSH UP</a></b>
                     <p>an exercise in which a person lies facing the floor and, keeping their back straight, raises their body by pressing down on their hands.</p>
                 </div>
-                <div class='i1'>
+                <div class='i1'><!--- the right part of the r1 (pict )--->
                     <img src="https://raw.githubusercontent.com/willamjonathan/hello-github-actions/main/forfp/push-up-reguler-300x258.jpg" width='100%' height='100%'>
                 </div>
             </div>
@@ -286,8 +296,9 @@
                 </div>
             </div>
         </div>
+        <!--- footer or lower part of the page --->
         <div class ="footer">
-            
+            <!---the profile user icon which can be clicked and will redirect you to the profile user page --->
             <a href="https://willamjonathan.github.io/FP_11/"> <i class="fas fa-user-circle fa-3x"></i></a>
             <div class ="moto"><b>YOUR HEALTHY SOLUTION</b></div>
         </div>
